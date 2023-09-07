@@ -1,0 +1,32 @@
+.tarea-contenedor {
+    width: 500px;
+    min-height: 65px;
+    background-color:aliceblue;
+    margin: 5px 0;
+    padding: 8px 15px 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+
+.tarea-texto {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.tarea-icono {
+    width:15px;
+    height: 15px;
+    margin: 5px;
+    cursor: pointer;
+    color: rgb(245, 73, 73);
+    border: none;
+}
+
+
